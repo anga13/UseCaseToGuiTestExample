@@ -1,0 +1,5 @@
+1 Administratören besöker sidan <url>
+2 A trycker på länken "Today" i navigationsmenyn
+3 A ser en lista med de anställda som har checkat in under dagen
+4 A trycker på en länk för en av de anställda
+5 A ser detaljerad information om den anställda
