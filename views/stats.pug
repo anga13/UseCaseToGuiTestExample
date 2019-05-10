@@ -1,0 +1,12 @@
+extends index.pug
+block content
+  table
+    tr#employee-id
+      td.stat-category ID
+      td.stat-value= employee.id
+    tr#employee-name
+      td.stat-category Name
+      td.stat-value= employee.name
+    tr#worked-hours
+      td.stat-category Worked hours
+      td.stat-value= employee.hours
