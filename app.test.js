@@ -1,17 +1,12 @@
 const {Builder, By} = require('selenium-webdriver')
-const chrome = require('selenium-webdriver/chrome')
 
 const rootUrl = 'http://localhost:8080'
-
-const width = 640;
-const height = 480;
 
 let driver
 
 beforeAll(() => {
   driver = new Builder()
     .forBrowser('chrome')
-    .setChromeOptions(new chrome.Options().headless().windowSize({width, height}))
     .build()
 })
 
